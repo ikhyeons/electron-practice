@@ -1,0 +1,22 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "build/main.js",
+  "scripts": {
+    "compile": "bun tsc && cp index.html build/",
+    "start": "DEBUG=true bunx electron .",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^35.1.5",
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
