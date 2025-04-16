@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "build/main.js",
   "scripts": {
-    "compile": "bun tsc && cp index.html build/",
+    "compile": "bun tsc && cp index.html build",
     "start": "DEBUG=true bunx electron .",
     "test": "echo 'Error: no test specified' && exit 1"
   },
